@@ -1,40 +1,23 @@
 # 💳 Credit Card Portfolio & Customer Analytics
 
-## End-to-End Data Analytics Project | SQL + Tableau
+## End-to-End Data Analytics Project | PostgreSQL SQL + Tableau
 
-An end-to-end credit card portfolio analytics project using **SQL for data validation, data preparation, transformation, and business analysis**, followed by **Tableau for interactive dashboard development, visualization, business insights, and recommendations**.
+An end-to-end **Credit Card Portfolio & Customer Analytics** project demonstrating how **PostgreSQL SQL and Tableau can be combined to transform raw portfolio data into actionable business insights**.
 
----
+This project showcases the complete workflow of a Data Analyst:
 
-# 👨‍💻 About Me
+> **Business Problem → Data Understanding → PostgreSQL → Data Validation → Data Cleaning → SQL Data Preparation → SQL Business Analysis → Analytical Dataset → Tableau → Dashboard → Findings → Business Insights → Recommendations → Conclusion**
 
-Hi, I'm **Hari Krishna**, a Data Analyst focused on transforming data into actionable business insights through:
+The primary objective of this project is to demonstrate both:
 
-- SQL
-- Tableau
-- Power BI
-- Advanced Excel
-- Power Query
-- DAX
-- Python
-- Data Analysis
-- Dashboard Development
-- Data Visualization
-- Business Intelligence
-
-### Connect With Me
-
-🔗 **LinkedIn:**  
-https://www.linkedin.com/in/hari-krishna-178397145/
-
-💻 **GitHub:**  
-https://github.com/harikrishna-analytics
+- **Technical SQL / PostgreSQL capability**
+- **Tableau dashboard and Business Intelligence capability**
 
 ---
 
-# 🎯 Business Problem
+# 📊 About the Project
 
-A credit card business needs visibility into its customer and card portfolio to understand:
+This project analyzes a credit card customer and portfolio dataset to understand:
 
 - Customer composition
 - Card portfolio distribution
@@ -45,34 +28,92 @@ A credit card business needs visibility into its customer and card portfolio to 
 - Portfolio concentration
 - High-value customer/card segments
 
-The objective of this project is to transform available customer and card data into **actionable portfolio intelligence** that can support business decision-making.
+The project intentionally combines **PostgreSQL SQL and Tableau** to demonstrate how raw data can be transformed into a complete business-focused analytical solution.
+
+---
+
+# 🎯 Project Agenda
+
+The project follows an end-to-end analytics approach:
+
+1. Understand the business problem
+2. Understand the dataset
+3. Load the data into PostgreSQL
+4. Perform data validation
+5. Perform data cleaning
+6. Prepare analytical data using SQL
+7. Perform customer analytics
+8. Perform card portfolio analytics
+9. Analyze credit exposure
+10. Apply advanced SQL techniques
+11. Prepare the analytical dataset for Tableau
+12. Build Tableau measures
+13. Create calculated fields
+14. Apply LOD expressions
+15. Create parameters
+16. Apply filters
+17. Build interactive visualizations
+18. Develop Tableau dashboards
+19. Identify findings and business insights
+20. Develop recommendations
+21. Present the final business story
+
+---
+
+# 🏢 Business Problem
+
+A credit card business needs better visibility into its customer and card portfolio to understand:
+
+- Customer composition
+- Card portfolio distribution
+- Card adoption
+- Credit limits
+- Credit exposure
+- Customer segments
+- Portfolio concentration
+- High-value customer/card segments
+
+The objective is to transform available customer and card data into **actionable portfolio intelligence** that can support business decision-making.
 
 ---
 
 # 🎯 Project Objectives
 
-## Customer Analytics
+## 👥 Customer Analytics
 
 - Analyze customer portfolio composition
 - Understand customer segments
 - Identify important customer characteristics
+- Compare portfolio characteristics across customer segments
+- Analyze customer-level credit characteristics
 
-## Card Portfolio Analytics
+## 💳 Card Portfolio Analytics
 
 - Analyze card distribution
 - Compare card categories
 - Understand card adoption patterns
+- Analyze card portfolio composition
+- Compare card characteristics across customer segments
 
-## Credit Exposure Analytics
+## 💰 Credit Exposure Analytics
 
 - Analyze total credit exposure
 - Analyze average credit limits
 - Compare exposure by card type
 - Compare exposure across customer segments
+- Identify higher-credit-limit segments
+- Analyze portfolio concentration
 
-## Business Intelligence
+## 📊 Business Intelligence
 
-- Develop an interactive Tableau dashboard
+- Prepare analytical data using PostgreSQL
+- Perform business analysis using SQL
+- Develop Tableau measures
+- Create calculated fields
+- Apply Tableau LOD expressions
+- Use Tableau parameters
+- Apply Tableau filters
+- Build interactive dashboards
 - Convert SQL analysis into visual insights
 - Generate business-oriented recommendations
 
@@ -86,27 +127,39 @@ The objective of this project is to transform available customer and card data i
 4. How does credit exposure vary across customer segments?
 5. Which customer segments have higher credit limits?
 6. Where is credit exposure concentrated?
-7. What portfolio patterns can support business decisions?
-8. What customer or portfolio opportunities can be identified?
+7. Which card categories are strongly represented?
+8. Which customer segments have stronger credit characteristics?
+9. What portfolio patterns can support business decisions?
+10. What customer or portfolio opportunities can be identified?
 
 ---
 
 # 📊 Dataset
 
-The project uses customer and credit-card portfolio data containing fields related to customer characteristics, card categories, and credit-related attributes.
-
-## Analysis Areas
+The project uses customer and credit-card portfolio data containing fields related to:
 
 - Customer characteristics
+- Customer identifiers
+- Card categories
 - Card types
 - Customer segments
 - Credit limits
 - Credit exposure
-- Portfolio composition
+- Portfolio characteristics
+
+## Analysis Areas
+
+- Customer portfolio
+- Card portfolio
+- Customer segmentation
+- Credit limits
+- Credit exposure
+- Card distribution
+- Portfolio concentration
 
 ---
 
-# ⚠️ Data Limitation
+# ⚠️ Data Limitations
 
 The dataset does **not contain detailed transaction-level information**.
 
@@ -121,44 +174,122 @@ Therefore, this project does not analyze:
 - Repayment behavior
 - Transaction trends
 
-The analysis is focused on **customer, card, and credit portfolio characteristics** supported by the available data.
+The analysis is focused on:
+
+> **Customer + Card + Credit Portfolio Analytics**
+
+based on the attributes available in the dataset.
 
 ---
 
 # 🛠️ Tools & Technologies
 
-| Tool | Purpose |
+| Technology | Purpose |
 |---|---|
-| **SQL** | Data validation, preparation, transformation and business analysis |
-| **Tableau** | Interactive dashboard development and visualization |
+| **PostgreSQL** | Database and analytical environment |
+| **SQL** | Data validation, cleaning, preparation, transformation and business analysis |
+| **Tableau** | Dashboard development, visualization and Business Intelligence |
 | **Excel / CSV** | Source data |
-| **GitHub** | Project documentation and version control |
+| **GitHub** | Documentation and version control |
 | **PowerPoint** | Portfolio project presentation |
 
 ---
 
-# 🧠 SQL Techniques Used
+# 🔄 End-to-End Project Workflow
 
-The project applies both foundational and advanced SQL techniques.
+```text
+                    BUSINESS PROBLEM
+                           │
+                           ▼
+                       RAW DATA
+                           │
+                           ▼
+                  DATA UNDERSTANDING
+                           │
+                           ▼
+                  POSTGRESQL DATABASE
+                           │
+                           ▼
+                    DATA VALIDATION
+                           │
+                           ▼
+                     DATA CLEANING
+                           │
+                           ▼
+                 SQL DATA PREPARATION
+                           │
+                           ▼
+                  SQL BUSINESS ANALYSIS
+                           │
+                           ▼
+                  ANALYTICAL DATASET
+                           │
+                           ▼
+                        TABLEAU
+                           │
+          ┌────────────────┼────────────────┐
+          ▼                ▼                ▼
+      MEASURES      CALCULATED FIELDS      LOD
+          │                │                │
+          └────────────────┼────────────────┘
+                           ▼
+                      PARAMETERS
+                           │
+                           ▼
+                        FILTERS
+                           │
+                           ▼
+                    VISUALIZATIONS
+                           │
+                           ▼
+                INTERACTIVE DASHBOARD
+                           │
+                           ▼
+                  BUSINESS FINDINGS
+                           │
+                           ▼
+                  BUSINESS INSIGHTS
+                           │
+                           ▼
+                    RECOMMENDATIONS
+                           │
+                           ▼
+                       CONCLUSION
 
-## SQL Fundamentals
 
-- SELECT
-- WHERE
-- GROUP BY
-- ORDER BY
-- DISTINCT
-- Aggregate Functions
 
-## SQL Transformation
 
-- CASE
-- JOINs
+
+
+# 👨‍💻 About Me
+
+## Hi, I'm Hari Krishna 👋
+
+### Data Analyst | SQL | Tableau | Power BI | Business Intelligence
+
+I am a **Data Analyst** focused on transforming raw data into actionable business insights through **SQL, business intelligence, dashboard development, data visualization, reporting, and analytical storytelling**.
+
+I enjoy building **end-to-end analytics solutions** — from understanding business requirements and preparing data using SQL to developing interactive dashboards, analyzing KPIs, identifying business insights, and communicating recommendations to stakeholders.
+
+This **Credit Card Portfolio & Customer Analytics** project demonstrates my ability to combine **PostgreSQL SQL and Tableau** to build a complete business analytics solution.
+
+---
+
+## 🛠️ Technical Skills
+
+### 🗄️ SQL & Databases
+
+- PostgreSQL
+- SQL
+- Data Validation
+- Data Cleaning
+- Data Preparation
+- Data Transformation
+- Joins
 - Subqueries
 - CTEs
-
-## Advanced SQL
-
+- Aggregate Functions
+- CASE Statements
 - Window Functions
 - RANK()
 - DENSE_RANK()
@@ -166,244 +297,101 @@ The project applies both foundational and advanced SQL techniques.
 - LAG()
 - LEAD()
 
-The SQL analysis was designed around **business questions rather than SQL syntax alone**.
+### 📊 Tableau
+
+- Tableau Dashboard Development
+- Dashboard Design
+- Data Visualization
+- Measures
+- Calculated Fields
+- Level of Detail (LOD) Expressions
+- Parameters
+- Filters
+- Interactive Dashboards
+- KPI Development
+- Business Storytelling
+
+### 📈 Power BI
+
+- Power BI Dashboard Development
+- DAX
+- Power Query
+- Data Modeling
+- Star Schema
+- Measures
+- Calculated Columns
+- KPI Development
+- Interactive Reports
+- Data Visualization
+
+### 📗 Microsoft Excel
+
+- Advanced Excel
+- Pivot Tables
+- XLOOKUP
+- Advanced Formulas
+- Power Query
+- Data Cleaning
+- Data Analysis
+- MIS Reporting
+- Dashboard Development
+
+### 🐍 Python
+
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Data Cleaning
+- Exploratory Data Analysis
+- Data Visualization
 
 ---
 
-# 🧹 Data Preparation Using SQL
+## 💼 Core Analytics Capabilities
 
-SQL was used as the primary analytical layer for preparing the data.
-
-## Data Quality Checks
-
-- NULL value checks
-- Duplicate checks
-- Invalid-value checks
-- Data consistency checks
-- Numerical field validation
-- Categorical value validation
-
-## Data Preparation
-
-- Filtering relevant records
-- Standardizing fields
-- Creating analytical fields
-- Transforming data
-- Preparing datasets for visualization
+Business Problem → Business Requirements → Data Understanding → Data Validation → Data Cleaning → SQL Data Preparation → SQL Business Analysis → Analytical Dataset → Tableau / Power BI → Measures & Calculated Fields → Data Visualization → Interactive Dashboards → Business Insights → Recommendations → Decision Support
 
 ---
 
-# 🔎 SQL Business Analysis
+## 🎯 Professional Focus
 
-## Customer Analytics
+I am interested in opportunities involving:
 
-Analyzed:
-
-- Customer distribution
-- Customer segments
-- Customer characteristics
-- Segment-level portfolio characteristics
-
-## Card Portfolio Analytics
-
-Analyzed:
-
-- Card distribution
-- Card categories
-- Card adoption
-- Portfolio composition
-
-## Credit Exposure Analytics
-
-Analyzed:
-
-- Total credit exposure
-- Average credit limit
-- Credit exposure by card type
-- Credit exposure by customer segment
-
-## Ranking Analysis
-
-Used SQL ranking functions to identify relevant:
-
-- High-value customers
-- Customer segments
-- Card categories
-- Credit-limit rankings
-- Portfolio rankings
+- Data Analytics
+- Business Intelligence
+- SQL Analytics
+- Tableau Development
+- Power BI Development
+- Dashboard Development
+- Reporting & MIS
+- Business Reporting
+- Data Visualization
+- Business Insights
+- Analytics & Decision Support
 
 ---
 
-# 🚀 Advanced SQL Analysis
+# 📫 Connect With Me
 
-## CTEs
+### 🔗 LinkedIn
 
-Used Common Table Expressions to structure complex analytical queries into readable steps.
+[linkedin.com/in/hari-krishna-178397145](https://www.linkedin.com/in/hari-krishna-178397145/)
 
-## Window Functions
+### 💻 GitHub
 
-Used for ranking and comparative analysis.
+[github.com/harikrishna-analytics](https://github.com/harikrishna-analytics)
 
-```'sql
-RANK()
-DENSE_RANK()
-ROW_NUMBER()
-LAG()
-LEAD()
+### 📧 Email
 
-# 📊 Tableau Dashboard Development
+[hanrajharikrishna@gmail.com](mailto:hanrajharikrishna@gmail.com)
 
-After completing data validation, preparation, and business analysis using SQL, the prepared analytical data was used to develop an interactive **Tableau dashboard**.
+### 📱 Mobile
 
-The dashboard was designed to provide a business-focused view of:
-
-- Customer portfolio
-- Card portfolio
-- Credit limits
-- Credit exposure
-- Customer segments
-- Card categories
-- Portfolio concentration
-
-The objective was not only to visualize the data, but also to convert the SQL analysis into an interactive **Business Intelligence solution**.
++91 6301713992
 
 ---
 
-# 🎯 Dashboard Objectives
+## ⭐ Thank You for Visiting My Project
 
-The Tableau dashboard was designed to help business users quickly understand:
-
-- Overall customer portfolio size
-- Card portfolio distribution
-- Credit exposure
-- Average credit limits
-- Customer segmentation
-- Card category performance
-- Credit exposure concentration
-- High-value customer/card segments
-
-The dashboard follows a:
-
-> **KPI → Distribution → Comparison → Detailed Analysis**
-
-approach.
-
----
-
-# 📌 Dashboard Structure
-
-The Tableau solution consists of multiple analytical sections.
-
----
-
-## 1. Executive Portfolio Overview
-
-Provides a high-level summary of the credit card portfolio.
-
-### Key KPIs
-
-- Total Customers
-- Total Cards
-- Total Credit Exposure
-- Average Credit Limit
-
-The KPI section provides stakeholders with an immediate understanding of the overall portfolio.
-
----
-
-## 2. Customer Analytics Dashboard
-
-The customer analysis section focuses on understanding customer composition and segmentation.
-
-### Analysis Includes
-
-- Customer distribution
-- Customer segments
-- Customer characteristics
-- Credit exposure by customer segment
-- Credit-limit characteristics
-
-This section helps identify differences between customer groups and understand which segments contribute significantly to the portfolio.
-
----
-
-## 3. Card Portfolio Dashboard
-
-The card portfolio section analyzes the composition and distribution of different card categories.
-
-### Analysis Includes
-
-- Card distribution
-- Card types
-- Card adoption
-- Customer count by card category
-- Credit exposure by card category
-
-This allows stakeholders to compare card categories and understand their contribution to the overall portfolio.
-
----
-
-## 4. Credit Exposure Analysis
-
-The credit exposure section focuses on the credit characteristics of the portfolio.
-
-### Analysis Includes
-
-- Total credit exposure
-- Average credit limit
-- Credit exposure by card type
-- Credit exposure by customer segment
-- High-credit-limit segments
-
-This provides visibility into how credit exposure is distributed across different portfolio dimensions.
-
----
-
-# 🧮 Tableau Measures & Calculated Fields
-
-Several measures and calculated fields were used to convert the available fields into meaningful business metrics.
-
----
-
-## 📌 Key Measures
-
-The dashboard uses measures such as:
-
-- Customer Count
-- Card Count
-- Total Credit Exposure
-- Average Credit Limit
-- Minimum Credit Limit
-- Maximum Credit Limit
-- Credit Exposure by Card Type
-- Credit Exposure by Customer Segment
-
-These measures were used throughout the KPI cards, charts, comparisons, and dashboard views.
-
----
-
-# 🧠 Tableau Calculated Fields
-
-Calculated fields were created where business logic or derived metrics were required.
-
-Calculated fields were used for:
-
-- Business classifications
-- Customer segmentation
-- Portfolio categorization
-- KPI calculations
-- Analytical comparisons
-- Conditional business logic
-
-### Example — Credit Limit Classification
-
-```tableau
-IF [Credit Limit] >= [Threshold]
-THEN "High Credit Limit"
-ELSE "Standard Credit Limit"
-END
-
-                       
-
-
-
+If you find this project useful, feel free to explore the repository and connect with me on **LinkedIn or GitHub**.
