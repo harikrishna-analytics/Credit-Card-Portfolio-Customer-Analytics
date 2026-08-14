@@ -265,7 +265,7 @@ The dashboard was designed to provide a business-focused view of:
 - Card categories
 - Portfolio concentration
 
-The objective was not only to visualize the data, but also to convert the SQL analysis into an interactive business intelligence solution.
+The objective was not only to visualize the data, but also to convert the SQL analysis into an interactive **Business Intelligence solution**.
 
 ---
 
@@ -282,13 +282,19 @@ The Tableau dashboard was designed to help business users quickly understand:
 - Credit exposure concentration
 - High-value customer/card segments
 
-The dashboard follows a **KPI → Trend/Distribution → Comparison → Detailed Analysis** approach.
+The dashboard follows a:
+
+> **KPI → Distribution → Comparison → Detailed Analysis**
+
+approach.
 
 ---
 
 # 📌 Dashboard Structure
 
 The Tableau solution consists of multiple analytical sections.
+
+---
 
 ## 1. Executive Portfolio Overview
 
@@ -357,7 +363,9 @@ This provides visibility into how credit exposure is distributed across differen
 
 Several measures and calculated fields were used to convert the available fields into meaningful business metrics.
 
-## Key Measures
+---
+
+## 📌 Key Measures
 
 The dashboard uses measures such as:
 
@@ -374,7 +382,7 @@ These measures were used throughout the KPI cards, charts, comparisons, and dash
 
 ---
 
-# 🧠 Calculated Fields
+# 🧠 Tableau Calculated Fields
 
 Calculated fields were created where business logic or derived metrics were required.
 
@@ -387,233 +395,13 @@ Calculated fields were used for:
 - Analytical comparisons
 - Conditional business logic
 
-### Example
-
-A calculated field can be used to classify credit limits into analytical categories:
+### Example — Credit Limit Classification
 
 ```tableau
 IF [Credit Limit] >= [Threshold]
 THEN "High Credit Limit"
 ELSE "Standard Credit Limit"
 END
-
-
-Overall Portfolio
-       ↓
-Customer Analysis
-       ↓
-Card Portfolio
-       ↓
-Credit Exposure
-       ↓
-Detailed Analysis
-
-
-
-# 💡 Key Findings
-
-The analysis of the credit card portfolio provided several important business insights across customer segments, card categories, credit limits, and overall credit exposure.
-
-## 1. Customer Portfolio Distribution
-
-The analysis provides visibility into how customers are distributed across different customer characteristics and segments.
-
-This segmentation helps the business understand that the customer base is not homogeneous and that different customer groups may require different engagement and product strategies.
-
----
-
-## 2. Card Portfolio Distribution
-
-The analysis identifies differences in the distribution and adoption of card categories across the customer portfolio.
-
-Understanding the contribution of each card category helps the business identify:
-
-- Strongly represented card categories
-- Underrepresented card categories
-- Customer segments associated with different card types
-- Opportunities for targeted card strategies
-
----
-
-## 3. Credit Exposure Concentration
-
-Credit exposure is distributed differently across card categories and customer segments.
-
-The analysis provides visibility into where the portfolio's credit exposure is concentrated, helping stakeholders identify segments that may require closer monitoring.
-
----
-
-## 4. Credit Limit Characteristics
-
-The analysis compares credit-limit characteristics across customers, card categories, and customer segments.
-
-Higher credit-limit segments can represent strategically important customer groups from a portfolio perspective and may require targeted customer management and monitoring.
-
----
-
-## 5. Customer Segment Differences
-
-Customer segments demonstrate differences in their portfolio and credit characteristics.
-
-This creates opportunities for the business to develop more targeted:
-
-- Customer engagement strategies
-- Retention strategies
-- Card-product strategies
-- Portfolio management strategies
-
----
-
-## 6. High-Value Customer and Card Segments
-
-SQL ranking analysis and Tableau visualizations help identify customer and card segments with stronger credit-related characteristics.
-
-These segments can be considered for further analysis and targeted business strategies.
-
----
-
-## 7. Portfolio-Level Visibility
-
-The combination of SQL analysis and Tableau visualization provides a consolidated view of the portfolio.
-
-Instead of relying only on raw data or individual SQL queries, stakeholders can interact with the dashboard to quickly understand:
-
-```text
-Customer Portfolio
-       ↓
-Card Portfolio
-       ↓
-Credit Limits
-       ↓
-Credit Exposure
-       ↓
-Customer Segments
-       ↓
-Portfolio Opportunities
-
-# 👨‍💻 About Me
-
-## Hi, I'm Hari Krishna 👋
-
-### Data Analyst | Power BI | Tableau | SQL | Business Intelligence
-
-I am a **Data Analyst** focused on transforming data into actionable business insights through **data analysis, business intelligence, reporting, dashboard development, and data visualization**.
-
-I enjoy building end-to-end analytics solutions — from **data preparation and SQL analysis to data modeling, dashboard development, visualization, business insights, and recommendations**.
-
----
-
-## 🛠️ Technical Skills
-
-### 📊 Data Analytics & Business Intelligence
-- Data Analysis
-- Exploratory Data Analysis (EDA)
-- Business Intelligence
-- Business Reporting
-- KPI Analysis
-- Dashboard Development
-- Data Visualization
-- Business Storytelling
-
-### 🗄️ SQL & Databases
-- SQL
-- MySQL
-- PostgreSQL
-- Data Validation
-- Data Cleaning
-- Data Transformation
-- Joins
-- Subqueries
-- CTEs
-- Aggregate Functions
-- CASE Statements
-- Window Functions
-- RANK()
-- DENSE_RANK()
-- ROW_NUMBER()
-- LAG()
-- LEAD()
-
-### 📈 Power BI
-- Power BI Dashboard Development
-- DAX
-- Power Query
-- Data Modeling
-- Star Schema
-- Measures
-- Calculated Columns
-- KPI Development
-- Interactive Reports
-- Data Visualization
-- Business Intelligence Reporting
-
-### 📊 Tableau
-- Tableau Dashboard Development
-- Calculated Fields
-- Level of Detail (LOD) Expressions
-- Parameters
-- Filters
-- Interactive Dashboards
-- KPI Development
-- Dashboard Design
-- Data Visualization
-- Business Storytelling
-
-### 📗 Microsoft Excel
-- Advanced Excel
-- Pivot Tables
-- XLOOKUP
-- Advanced Formulas
-- Power Query
-- Data Cleaning
-- Data Analysis
-- MIS Reporting
-- Dashboard Development
-
-### 🐍 Python
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Data Cleaning
-- Exploratory Data Analysis
-- Data Visualization
-
----
-
-## 💼 Core Analytics Capabilities
-
-```text
-Business Problem
-       ↓
-Data Understanding
-       ↓
-Data Validation
-       ↓
-Data Preparation
-       ↓
-SQL Analysis
-       ↓
-Data Modeling
-       ↓
-Dashboard Development
-       ↓
-Data Visualization
-       ↓
-Business Insights
-       ↓
-Recommendations
-
-# 📫 Connect With Me
-
-🔗 **LinkedIn:** [linkedin.com/in/hari-krishna-178397145](https://www.linkedin.com/in/hari-krishna-178397145)
-
-💻 **GitHub:** [github.com/harikrishna-analytics](https://github.com/harikrishna-analytics)
-
-📧 **Email:** [hanrajharikrishna@gmail.com](mailto:hanrajharikrishna@gmail.com)
-
-📱 **Phone:** [+91 6301713992]
-
 
                        
 
